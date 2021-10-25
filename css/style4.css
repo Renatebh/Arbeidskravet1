@@ -1,0 +1,146 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: #bec3c0;
+    position: relative;  
+ 
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #bec3c0 ;
+    border-bottom: #27594a 10px solid;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.brand-title {
+    font-size: 1rem;
+    margin: 0.7rem 3rem;
+}
+
+
+.logoen {
+    position: absolute;
+
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    display: block;
+}
+
+.navbar-links li:hover {
+    background-color: #27594a;
+}
+
+main {
+    background-image: url(../img/bodo.jpg);
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    padding: 0 0 50px 0;
+}
+
+.main-container {
+    width: 700px;
+    color: white;
+    padding: 40px;
+    border: #85c9ab  5px solid;
+    background-color: #153633;
+    margin: auto auto 100px;
+    border-radius: 20px;
+    font-size: 20px;
+    position: relative;
+    top: 105px;
+}
+
+h3 {
+    width: 100%;
+}
+
+label {
+    width: 100%;
+    margin-bottom: 20px;
+    /* letter-spacing: 9px; */
+}
+
+input[type=text] {
+    width: 95%;
+    border-radius: 10px;
+    padding: 0.4rem;
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 95%;
+    border-radius: 10px;
+    padding: 0.4rem;
+    margin-bottom: 20px;
+}
+input[type=submit] {
+    border-radius: 30px;
+    width: 99%;
+    border: #85c9ab solid 3px;
+    background-color: #33131e;
+    color: white;
+    padding: 0.4rem;
+    margin-bottom: 20px;
+}
+
+input[type=submit]:hover {
+    background-color: #85c9ab;
+}
+
+.footer-container1 {
+    border-top: #27594a 10px solid;
+    width: 100%;
+    height: 150px;
+    position: relative;
+    bottom: 0;
+}
+
+.adress-txt {
+    margin-top: 45px;
+    margin-left: 15px;
+}
+.some-logos {
+    text-align: right;
+    position: relative;
+    bottom: 80px;
+    margin-right: 10px;
+}
+.footer-container2 {
+    width: 100%;
+    background-color: #3a4540;
+    height: 100px;
+    color: white;
+    height: 150px;
+}
+
+.footer-container2 p {
+    text-align: center;
+    padding: 25px;
+}
+
+

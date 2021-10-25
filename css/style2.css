@@ -1,0 +1,145 @@
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  position: relative;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #bec3c0;
+  border-bottom: #27594a 10px solid;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.brand-title {
+  font-size: 1rem;
+  margin: 0.7rem 3rem;
+}
+
+.logoen {
+  position: absolute;
+  width: 50px;
+}
+
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-links li {
+  list-style: none;
+}
+
+.navbar-links li a {
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+  display: block;
+}
+
+.navbar-links li:hover {
+  background-color: #27594a;
+}
+
+.main-container {
+  background-color: #153633;
+}
+
+.img-box {
+    width: 100%;
+    height:500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* https://cdn.pixabay.com/photo/2016/08/05/21/51/adventure-1573331__480.jpg */
+    background-image: url(../img/svalbar.jpg);
+    background-size: cover;
+    border-bottom: #85c9ab 5px solid;
+  }
+
+h1 {
+  color: white;
+  font-size: 70px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 500px;
+  margin: 0 30px;
+}
+
+@media screen and (max-width:
+1000px) {
+  h1 {
+    font-size: 35px;
+  }
+}
+
+.box-quote {
+  color: #85c9ab;
+  text-align: center;
+  font-family: 'Ephesis', cursive; 
+  font-size: 40px;
+  margin: 0 30px;
+}
+
+.box-quote i {
+  font-size: 20px;
+}
+
+.text-box {
+  color: white;
+  columns: 2;
+  margin: 30px;
+  padding-bottom: 50px;
+  font-family: monospace;
+}
+
+.roald-box {
+  background-color: white;
+  margin: 30px;
+}
+
+.roald-box img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.footer-container1 {
+  border-top: #27594a 5px solid;
+  width: 100%;
+  height: 150px;
+  background-color: #bec3c0;
+}
+
+.adress-txt {
+  margin: 45px 0 0 30px;
+}
+
+.some-logos {
+  text-align: right;
+  position: relative;
+  bottom: 80px;
+  margin-right: 10px;
+}
+
+.footer-container2 {
+  width: 100%;
+  background-color: #3a4540;
+  color: white;
+  height: 150px;
+  position: absolute;
+}
+
+.footer-container2 p {
+  text-align: center;
+  padding: 25px;
+}
+

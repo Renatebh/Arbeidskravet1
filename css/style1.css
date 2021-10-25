@@ -1,0 +1,270 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #bec3c0;
+  border-bottom: #27594a 10px solid;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.brand-title {
+  font-size: 1rem;
+  margin: 0.7rem 3rem;
+}
+
+.logoen {
+  position: absolute;
+  width: 50px;
+}
+
+.navbar ul {
+  margin: 0;
+  display: flex;
+}
+
+.navbar-links li {
+  list-style: none;
+}
+
+.navbar-links li a {
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+  display: block;
+}
+
+.navbar-links li:hover {
+  transition-duration: 0.4s;
+  background-color: #27594a;
+}
+
+.main-container {
+   /*Linken til bildet: https://cdn.pixabay.com/photo/2016/11/14/04/45/elephant-1822636__340.jpg */
+  background-image: url(../img/bodo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  color: white;
+  padding-bottom: 85px;
+  border-bottom: #27594a 5px solid;
+}
+
+h1 {
+    font-size: 75px;
+    text-align: center;
+    padding: 75px 0 0; 
+    margin: 20px; 
+
+}
+
+.main-container p {
+    text-align: center;
+    font-size: 4vh;
+    padding: 0 0 15%;
+    margin: 20px;
+}
+
+.main-box1 {
+  text-align: center;
+  padding: 20px 0; 
+  font-family: monospace;
+  font-size: 15px;
+  border-bottom: 5px solid #bec3c0;
+}
+
+h2 {
+  font-size: 4vh;
+}
+
+.main-box1 p {
+  margin: 20px 30px;
+}
+
+.btn-box {
+  text-align: center;
+  padding: 70px 0;
+}
+
+button {
+  width: 30%;
+  padding: 20px;
+  margin: 0 5px;
+  background-color: #153633;
+  border: none;
+  color: white;
+  font-size: 15px;
+  border-radius: 50px;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: #85c9ab;
+  color: #153633;
+}
+
+h2 {
+  text-align: center;
+  font-family: monospace;
+  font-size: 6vh;
+}
+.adventure-container {
+    width: 40%;
+    border: #27594a 5px solid;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #85c9ab;
+}
+
+.adventure-container img  {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.adventure-container a {
+  text-decoration: none;
+  color: #000;
+}
+
+.adventure-container h3 {
+  font-size: 3vh;
+}
+
+.text-box {
+   padding: 0 20px;
+   margin-bottom: 20px;
+   font-size: 13px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 9%;
+}
+
+
+
+.main-box2 {
+  font-family: monospace;
+  background-color: #153633;
+  color: white;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.main-box2 img {
+  width: 100%;
+  height: auto;
+  border-top: 5px #27594a solid;
+}
+
+  h3 {
+  font-size: 5vh;
+  margin: 50px 0;
+}  
+
+.main-box2 p {
+margin: 0 30px 30px;
+}
+
+ @media  screen and (min-width:
+ 1001px) {
+    p {
+    font-size: 25px;
+   }
+ } 
+ 
+ @media  screen and (max-width:
+ 1000px) {
+   p {
+    font-size: 15px;
+   }
+ }  
+  
+ .main-box3 img {
+  width: 15%;
+  margin: 30px 10px 0;
+}
+
+.main-box3 {
+  text-align: center;
+  border-top: #27594a 5px solid;
+  font-family: monospace;
+  font-size: 15px;
+  padding: 0 30px;
+}
+
+.main-box3 button {
+  width: 50%;
+  margin: 30px;
+}
+
+.covid-box {
+  background-image: url(../img/fjell.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 500px;
+  padding-top: 1px;
+  border-top: 5px solid #27594a;
+  z-index: -1;
+}
+
+.covid-text {
+  width: 45%;
+  color: white;
+  position: absolute;
+  left: 20%;
+  top: 15%;
+}
+
+.covid-box button {
+  background-color: white;
+  border-radius: 10px;
+  color: #000;
+  width: 40%;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+.footer-box1 {
+  border-top: #27594a 5px solid;
+  background-color: #bec3c0;
+  width: 100%;
+}
+
+.adress-txt {
+ margin: 60px 0 0 20px;
+}
+
+.some-logos {
+  text-align: right;
+  position: relative;
+  bottom: 80px;
+  margin-right: 10px;
+}
+
+.footer-box2 {
+  width: 100%;
+  background-color: #3a4540;
+  color: white;
+  height: 150px;
+  position: absolute;
+}
+
+.footer-box2 p {
+  text-align: center;
+  padding-top: 50px;
+}
